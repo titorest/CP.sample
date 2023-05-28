@@ -69,7 +69,7 @@ li:hover {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0 0 10px 15px;
+    padding: 0 0 10px 20px;
     background-image: linear-gradient(#86b893, #79a379);    
 }
 
