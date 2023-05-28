@@ -50,7 +50,7 @@ nav li {
 
 li:hover {
     color: white;    
-    /*transform: scale(1.05);   This property acts like a bold without affecting the width*/     
+    transform: scale(1.05);   /* This property acts like a bold without affecting the width */     
     cursor: pointer;
 }
 
