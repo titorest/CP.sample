@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Practice Application</title>
+    <link href="resources/css/styles.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <div class="TopHeader">
+            <h1>ACME Order Management &amp; Compliance Application</h1>
+            <p>Powered by ACME</p>
+        </div>
+        <nav class="HeaderMenu">
+            <ul>
+                <li>Home</li>
+                <li>Parts</li>
+                <li>Tariffs</li>
+                <li>Orders</li>
+                <li>Receiving</li>
+                <li>Document Library</li>
+                <li>Export Manifest Application</li>
+                <li>Reports</li>
+                <li>Admin</li>
+                <li>Change Password</li>
+                <li>Logout</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="LeftMenuArea">
+            <h3>Home Page</h3>
+            <hr />
+            <nav>
+                <ul>
+                    <!-- need to fix transform property-->
+                    <li class="LeftMenu">New</li>
+                    <li class="LeftMenu">View</li>
+                    <li class="LeftMenu">Edit</li>
+                    <li class="LeftMenu">Save</li>
+                </ul>
+            </nav>
+        </section>
+
+        <section class="MainArea">
+            <p class="Criteria-Description">Fill out the following fields:</p>   
+            <div class="Criteria">
+                <label for="firstName">First Name: </label>
+                <input type="text" placeholder="Enter first name.." id="firstName" name="firstName" required />
+                <label for="lastName">Last Name: </label>
+                <input type="text" placeholder="Enter last name.." id="lastName" name="lastName" />
+            </div>
+            <div class="Criteria">
+                <label for="email">Email: </label>
+                <input type="email" placeholder="Enter email address.." id="email" name="email" required />
+                <label for="phoneNumber">Phone Number: </label>
+                <input type="text" placeholder="Enter phone number.." id="phoneNumber" name="phoneNumber" />
+            </div>            
+        </section>
+    </main>
+
+    <footer>
+        <p>Version 2023</p>
+    </footer>
+
+</body>
+</html>
